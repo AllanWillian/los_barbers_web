@@ -10,6 +10,12 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @font-face {
+    font-family: "NewYork";
+    /* src:local(NewYork) url(../font/NewYork\ PERSONAL\ USE.otf); */
+    src: local(NewYork) url(../../font/NewYork\ PERSONAL\ USE.otf);
+ }
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10831,4 +10837,9 @@ textarea.form-control-lg {
   height: 4rem;
   width: 4rem;
   font-size: 2rem;
+}
+
+.sobre{
+  color: black;
+  margin-bottom: 90px;
 }
