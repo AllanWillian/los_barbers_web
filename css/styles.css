@@ -499,7 +499,12 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+}
+.lead2{
+  font-size: 1.0rem;
   font-weight: 300;
 }
 
@@ -4196,7 +4201,6 @@ textarea.form-control-lg {
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
-  --bs-card-bg: #fff;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
@@ -8071,6 +8075,7 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  
 }
 
 .text-secondary {
